@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @assignment_managemet.name %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @assignment_managemet.deadline %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @assignment_managemet.score %>
+</p>
+
+<%= link_to 'Edit', edit_assignment_managemet_path(@assignment_managemet) %> |
+<%= link_to 'Back', assignment_managemets_path %>
